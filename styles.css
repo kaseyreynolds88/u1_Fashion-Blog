@@ -1,0 +1,76 @@
+html {
+    border-left-width: 5px;
+    border-left-color: lightgray;
+    border-left-style: solid;
+}
+
+body {
+     min-height: 100%;
+     font-family: sans-serif;
+     max-width: 1000px;
+     margin: auto 0;
+}
+
+header, main, fooetr {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    color: tomato
+}
+
+img {
+    width: 100%;
+}
+
+.navigation-list {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top-nav {
+    color: lightgray;
+
+}
+
+.bot-nav {
+    color: tomato;
+    
+}
+
+h3, h4 {
+    font-size: 30px;
+}
+
+.continue {
+    color: tomato;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 2rem;
+}
+
+p::first-letter {
+    font-size: 4rem;
+    font-weight: bold;
+    color: lightgrey;
+}
+
+.amp {
+    color: lightgrey;
+    font-size: 20px;
+}
+
+
+
+
+
+
